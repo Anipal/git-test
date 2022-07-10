@@ -31,3 +31,9 @@ def push_git(load_n_test,csv_,src_path):
     parent = repo.get_git_commit(master_sha)
     commit = repo.create_git_commit(commit_message, tree, [parent])
     master_ref.edit(commit.sha)
+
+for i in range(10):
+    if(i%2==0):
+        push_git('a.pth','a.csv','a')
+    else:
+        push_git('b.pth','b.csv','b')
