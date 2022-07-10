@@ -1,0 +1,1 @@
+../../checkpoints/demo.pth , ../../data_csv/demo/2022.01.28.22.07.53.csv , /home/apal/ASM_Classification/data_test/2022.01.28.22.07.53.mp4
