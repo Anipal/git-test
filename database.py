@@ -14,7 +14,7 @@ def push_git(load_n_test,csv_,src_path):
     base_tree = repo.get_git_tree(master_sha)
 
     element_list = list()
-    entry = ''
+    entry = 'a.txt'
     # for i, entry in enumerate(file_list):
     with open(entry, "a+") as f:
         str_ = load_n_test+' , '+csv_+' , '+src_path
